@@ -21,7 +21,7 @@ const HomeRoundedIconItem = styled(HomeRoundedIcon)({
 export const routes = [
     {
       id: 'Home',
-      path: '/react-notes-app',
+      path: '/',
       element: <HomePage />,
       label: <HomeRoundedIconItem aria-hidden="true"/>,
       isActiveStyle: 'false',
@@ -29,7 +29,7 @@ export const routes = [
     },
     {
       id: 'Notes',
-      path: '/react-notes-app/notes',
+      path: '/notes',
       element: <NotesPage />,
       label: 'Notes',
       isActiveStyle: 'true',
@@ -37,7 +37,7 @@ export const routes = [
     },
     {
       id: 'About',
-      path: '/react-notes-app/about',
+      path: '/about',
       element: <About />,
       label: 'About',
       isActiveStyle: 'true',
@@ -45,7 +45,7 @@ export const routes = [
     },
     {
       id: 'Calendar',
-      path: '/react-notes-app/calendar',
+      path: '/calendar',
       element: <CalendarPage />,
       label: 'Calendar',
       isActiveStyle: 'true',
@@ -53,7 +53,7 @@ export const routes = [
     },
     {
       id: 'Annual',
-      path: '/react-notes-app/annual',
+      path: '/annual',
       element: <AnnualReport />,
       label: 'Annual Report',
       isActiveStyle: 'true',
@@ -61,7 +61,7 @@ export const routes = [
     },
     {
       id: 'Teams',
-      path: '/react-notes-app/team',
+      path: '/team',
       element: <Teams />,
       label: 'Teams',
       isActiveStyle: 'true',
@@ -69,7 +69,7 @@ export const routes = [
     },
     {
       id: 'Blogs',
-      path: '/react-notes-app/blogs',
+      path: '/blogs',
       element: <Blogs />,
       label: 'Blogs',
       isActiveStyle: 'true',
@@ -77,7 +77,7 @@ export const routes = [
     },
     {
       id: 'SignUp',
-      path: '/react-notes-app/sign-up',
+      path: '/sign-up',
       element: <SignUp/>,
       label: 'Sign Up',
       isActiveStyle: 'true',
@@ -85,7 +85,7 @@ export const routes = [
     },
     {
       id: 'SignIn',
-      path: '/react-notes-app/sign-in',
+      path: '/sign-in',
       element: <SignIn/>,
       label: 'Sign In',
       isActiveStyle: 'true',
